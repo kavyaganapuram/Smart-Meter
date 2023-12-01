@@ -1,0 +1,21 @@
+/* styles.css */
+.container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  .ActualReadings, .AssumedReadings {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .Results {
+    margin-top: 10px;
+  }
+  
+  .Results span {
+    display: block;
+    margin-top: 5px;
+  }
+  

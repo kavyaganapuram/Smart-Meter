@@ -1,0 +1,29 @@
+<div class="body">
+
+    <div class="Container">
+        <button (click)="nav.nav_setlimits()">Set Limits</button>
+        <div class="TodayCB">
+            <label for="todayCB">Todays Current Bill :</label>
+            <label for="">{{Bill.CurrentBill}}</label>
+            
+        </div>
+        <div class="UptodayCB">
+            <label for="UptodayCB">Current Bill Upto Today</label>
+            <label for="">{{Bill.UptoTodayBill}}</label>
+            
+        </div>
+        <div class="Limitleft">
+            <label for="limitleft">Units Left:</label>
+            <label for="">{{this.limitsleft}}</label>
+        </div>
+        <div class="TargetCB">
+        <label for="TargetCB">Target Current Bill ( setup by user) </label>
+        <label for="">{{this.targetbill}}</label>
+    </div>
+    <div class="box">
+        
+        <label for="performance">performance</label>
+
+    </div>
+</div>
+</div>

@@ -1,0 +1,57 @@
+/* styles.css */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+/* Add custom styles here */
+.container {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.video {
+    margin: 20px 0;
+}
+
+.navigate {
+    margin-top: 20px;
+}
+
+.navigate{
+padding: 30px;
+display: flex;
+justify-content: space-between;
+}
+button{
+    padding: 10px;
+}
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* styles.css */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .video {
+    margin-bottom: 20px;
+  }
+  
+  .navigate {
+    display: flex;
+    gap: 10px;
+  }
+

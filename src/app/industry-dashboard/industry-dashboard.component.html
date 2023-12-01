@@ -1,0 +1,31 @@
+<div class="container">
+
+    <button class="btn btn-primary" (click)="nav.nav_industryanomalies()">Anomalies</button>
+  
+    <div>
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="EstimatedMachineUnitsss">What are the minimum Power consumption of this machine:</label>
+          <input type="number" id="EstimatedMachineUnitsid" name="EstimatedMachineunitsname" [(ngModel)]="powerreadings" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Set Estimated Readings</button>
+      </form>
+    </div>
+  
+    <div class="ActualReadings">
+      <label for="">Power Consumed by This Machine is :</label>
+      <label for="">{{this.AbsoluteMachinepower}}</label>
+    </div>
+  
+    <div class="AssumedReadings">
+      <label for="">Estimated Power Consumption by This Machine is :</label>
+      <label for="">{{this.EstimationMachinepower}}</label>
+    </div>
+  
+    <div class="Results">
+      <span *ngIf="Condition == true" class="text-danger"> The Machine is Consuming more than its requirement. Please Ensure Servicing this Machine</span>
+      <span *ngIf="Condition == false" class="text-success"> The Machine is in Good Condition</span>
+    </div>
+  
+  </div>
+  
