@@ -1,4 +1,4 @@
-Smart Meter Assistant
+Smart Meter
 
 Project Insight
 
